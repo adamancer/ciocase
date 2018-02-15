@@ -1,0 +1,58 @@
+body { background-color: #cfdcf4; font: 10pt helvetica; overflow-y: scroll; }
+
+h1 { display: inline-block; }
+h2 { margin-top: 2em; }
+h3 { margin-top: 2em; }
+p { margin: 0.5em 0; }
+img {position: absolute; top: 1px; right: 1px; max-width: 90px; max-height: 90px; background-color: #fff; padding: 4px; margin: 0; }
+li { margin-bottom: 0.25em; }
+textarea { width: 100%; height: 20em; }
+
+a:link { color: #2d4c85; }
+a:visited { color: #2d4c85; }
+a:hover { color: #2d4c85; }
+a:active { color: #2d4c85; }
+
+ul.list li { margin-bottom: 1em; }
+
+ul.bar { display: inline-block; padding: 0; margin: 1em 1em 0 0; }
+ul.bar li { display: inline-table; vertical-align: middle; background-color: #fff; padding: 0.5em 1em; border-top: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+ul.bar li:first-child { border-left: 1px solid #dd; }
+ul.bar li.selected { background-color: #eee; }
+
+table { font: inherit; width: 100%; border-collapse: collapse; }
+
+table.top-header th { text-align: left; background-color: #ddd; padding: 0.5em; border: 1px solid #ccc; }
+table.top-header td { text-align: left; background-color: #fff; padding: 0.5em; border: 1px solid #ccc; }
+table.top-header td:first-child { width: 20%; background-color: #eee; }
+
+#search input { padding: 0.5em 0.35em; }
+#search input[name="keyword"] { width: 90%; }
+#search input[name="submit"] { width: 10%; }
+
+#sandbox input { padding: 0.5em 0.35em; margin-top: 1em; }
+#sandbox input[name="submit"] { width: 10%; }
+
+#results { margin-top: 1em; }
+#results table { position: relative; margin-bottom: 3em; }
+#results table:last-child { margin-bottom: 1em; }
+#results table th { width: 40%; text-align: left; word-break: break-all; background-color: #eee; padding: 0.5em; border: 1px solid #ccc; }
+#results table td { text-align: left; background-color: #fff; padding: 0.75em; border: 1px solid #ccc; }
+#results table ul { padding: 0 0 0 0.5em; margin: 0 0 0 0.75em; }
+#results table ul li { margin-bottom: 1em; }
+#results table ul li:last-child { margin-bottom: 0; }
+
+#advanced div { width: 90%; }
+#advanced label { display: inline-block; width: 8%; min-width: 100px; font-weight: bold; margin-right: 0.5%; }
+#advanced input { width: 40%; padding: 0.5em 0.35em; margin-top: 0.5em; }
+#advanced input[name="keyword"] { width: 40%; }
+#advanced input[type="submit"] { width: 10%; }
+#advanced span { display: inline-block; vertical-align: top; width: 40%; font-size: 0.85em; margin: 0.5em 0 0 1em; }
+
+div.header input { padding: 0.5em; }
+div.header input[name="keyword"] { width: 80%; }
+div.header input[type="submit"] { width: 17%; margin-left: 1%; }
+
+.clear { clear: both; }
+.float-right { float: right; }
+.footer { font-size: 8pt; text-align: center; }
